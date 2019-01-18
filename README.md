@@ -19,3 +19,4 @@ Finds the closest users to a selected Agent using their zip code data.
    * set DB_PASSWORD
    * set GOOGLE_MAPS_API_KEY
 * Type `php artisan migrate --seed` to create and populate tables
+You can create a symbolic link to the public directory or access it directly.
