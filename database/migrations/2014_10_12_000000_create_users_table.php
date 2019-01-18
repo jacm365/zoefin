@@ -16,7 +16,7 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('role_id')->unsigned();
-            $table->integer('role_id')->references('id')->on('roles');
+            $table->foreign('role_id')->references('id')->on('roles');
             $table->integer('profession_id')->nullable()->unsigned();
             $table->foreign('profession_id')->references('id')->on('professions');
             $table->string('first_name');
@@ -24,8 +24,6 @@ class CreateUsersTable extends Migration
             $table->smallInteger('age');
             $table->string('gender');
             $table->string('zip_code');
-            $table->string('latitude')->nullable();
-            $table->string('longitude')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

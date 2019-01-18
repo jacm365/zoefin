@@ -35,7 +35,8 @@ class DatabaseSeeder extends Seeder
             'gender' => 'M',
             'zip_code' => '90071',
             'email' => 'robert.smith@zoefin.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 1,
             'profession_id' => 1,
@@ -44,81 +45,98 @@ class DatabaseSeeder extends Seeder
             'age' => 48,
             'gender' => 'M',
             'zip_code' => '94108',
-            'email' => 'robert.smith@zoefin.com',
-            'password' => bcrypt('zoefin')
+            'email' => 'john.smith@zoefin.com',
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             //CONTACTS
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'Jane',
             'last_name' => 'Doe',
             'age' => 38,
             'gender' => 'F',
             'zip_code' => '94126',
             'email' => 'jane.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'John',
             'last_name' => 'Doe',
             'age' => 33,
             'gender' => 'M',
             'zip_code' => '94301',
             'email' => 'john.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'Mary',
             'last_name' => 'Doe',
             'age' => 35,
             'gender' => 'F',
             'zip_code' => '95112',
             'email' => 'mary.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'David',
             'last_name' => 'Doe',
             'age' => 38,
             'gender' => 'M',
             'zip_code' => '95404',
             'email' => 'david.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'James',
             'last_name' => 'Doe',
             'age' => 45,
             'gender' => 'M',
             'zip_code' => '93120',
             'email' => 'james.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'Michael',
             'last_name' => 'Doe',
             'age' => 33,
             'gender' => 'M',
             'zip_code' => '93454',
             'email' => 'micheal.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'Alexander',
             'last_name' => 'Doe',
             'age' => 39,
             'gender' => 'M',
             'zip_code' => '93702',
             'email' => 'alexander.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ],
             ['role_id' => 2,
+            'profession_id' => null,
             'first_name' => 'Paul',
             'last_name' => 'Doe',
             'age' => 39,
             'gender' => 'M',
-            'zip_code' => '93702',
+            'zip_code' => '91950',
             'email' => 'paul.doe@gmail.com',
-            'password' => bcrypt('zoefin')
+            'password' => bcrypt('zoefin'),
+            'created_at' => date("Y-m-d H:i:s")
             ]
         ]);
 

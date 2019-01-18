@@ -12,3 +12,17 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+img.logo {
+    width: 110px;
+}
+
+.user-details {
+    .card-header {
+        font-size: 25px;
+    }
+
+    .btn {
+        color: #fff !important;
+    }
+}

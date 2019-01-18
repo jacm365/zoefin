@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/{url}', 'UserDetailsController@index')->where(['url' => 'userdetails|'])->name('userdetails');
+Route::get('/agentcontacts', 'AgentContactsController@index');
+Auth::routes();
+
